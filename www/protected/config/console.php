@@ -18,6 +18,7 @@ return array(
 			'username' => 'root',
 			'password' => '',
 			'charset' => 'utf8',
+			'tablePrefix' => 'bla_',
 		),
 		
 		'log'=>array(
