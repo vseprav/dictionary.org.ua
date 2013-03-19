@@ -31,8 +31,8 @@
 				),
 				'htmlOptions'=>array('class'=>'nav'),
 			)); ?>
-		</div>
-	</div><!-- mainmenu -->
+		</div><!-- navbar-inner -->
+	</div><!-- navbar -->
 	<?php if(isset($this->breadcrumbs)):?>
 		<?php $this->widget('zii.widgets.CBreadcrumbs', array(
 			'links'=>$this->breadcrumbs,
