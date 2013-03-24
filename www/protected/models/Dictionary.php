@@ -8,7 +8,7 @@
  * @property string $title
  * @property string $description
  */
-class Dictionaries extends CActiveRecord
+class Dictionary extends CActiveRecord
 {
 	/**
 	 * Returns the static model of the specified AR class.
@@ -52,6 +52,8 @@ class Dictionaries extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'words' => array(self::HAS_MANY, 'Word', 'dictionary_id'),
+			'project' => array(self::BELONGS_TO, 'Project', 'project_id')
 		);
 	}
 
@@ -64,6 +66,7 @@ class Dictionaries extends CActiveRecord
 			'id' => 'ID',
 			'title' => 'Title',
 			'description' => 'Description',
+			'words' => 'Words',
 		);
 	}
 

@@ -8,7 +8,7 @@ $this->breadcrumbs=array(
 );
 ?>
 
-<h1>View Dictionaries</h1>
+<h1>View Dictionary</h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,

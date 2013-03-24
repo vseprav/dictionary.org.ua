@@ -1,6 +1,6 @@
 <?php
 
-class DictionariesController extends Controller
+class ProjectsController extends Controller
 {
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
@@ -62,13 +62,14 @@ class DictionariesController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new Dictionary;
+		$model=new Project;
+
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Dictionary']))
+		if(isset($_POST['Project']))
 		{
-			$model->attributes=$_POST['Dictionary'];
+			$model->attributes=$_POST['Project'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -90,9 +91,9 @@ class DictionariesController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Dictionary']))
+		if(isset($_POST['Project']))
 		{
-			$model->attributes=$_POST['Dictionary'];
+			$model->attributes=$_POST['Project'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -121,12 +122,23 @@ class DictionariesController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$model=new Dictionary('search');
-		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Dictionary']))
-			$model->attributes=$_GET['Dictionary'];
-
+		$dataProvider=new CActiveDataProvider('Project');
 		$this->render('index',array(
+			'dataProvider'=>$dataProvider,
+		));
+	}
+
+	/**
+	 * Manages all models.
+	 */
+	public function actionAdmin()
+	{
+		$model=new Project('search');
+		$model->unsetAttributes();  // clear any default values
+		if(isset($_GET['Project']))
+			$model->attributes=$_GET['Project'];
+
+		$this->render('admin',array(
 			'model'=>$model,
 		));
 	}
@@ -135,12 +147,12 @@ class DictionariesController extends Controller
 	 * Returns the data model based on the primary key given in the GET variable.
 	 * If the data model is not found, an HTTP exception will be raised.
 	 * @param integer $id the ID of the model to be loaded
-	 * @return Dictionaries the loaded model
+	 * @return Project the loaded model
 	 * @throws CHttpException
 	 */
 	public function loadModel($id)
 	{
-		$model=Dictionary::model()->findByPk($id);
+		$model=Project::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
@@ -148,11 +160,11 @@ class DictionariesController extends Controller
 
 	/**
 	 * Performs the AJAX validation.
-	 * @param Dictionaries $model the model to be validated
+	 * @param Project $model the model to be validated
 	 */
 	protected function performAjaxValidation($model)
 	{
-		if(isset($_POST['ajax']) && $_POST['ajax']==='dictionaries-form')
+		if(isset($_POST['ajax']) && $_POST['ajax']==='project-form')
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();
