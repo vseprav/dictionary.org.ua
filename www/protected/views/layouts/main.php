@@ -5,15 +5,15 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="language" content="en" />
 
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
 	
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 
 <body>
 
-<div class="container well" id="page">
+<div class="container" id="page">
 
 	<div id="header">
 		<h1><?php echo CHtml::encode(Yii::app()->name); ?></h1>
@@ -25,7 +25,7 @@
 				'items'=>array(
 					array('label'=>'Home', 'url'=>array('/site/index')),
 					array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
-					array('label'=>'Dictionaries', 'url'=>array('/dictionaries')),
+					array('label'=>'Projects', 'url'=>array('/projects')),
 					array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
 					array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
 				),

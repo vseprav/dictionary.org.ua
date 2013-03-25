@@ -4911,3 +4911,477 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/favicon.ico
 ---
+2013/03/25 22:59:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:01:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:02:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:02:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:02:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:02:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:03:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:06:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:07:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:07:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:07:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:09:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:09:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:10:37 [error] [exception.CException] exception 'CException' with message 'ProjectsController cannot find the requested view "admin".' in Z:\home\dictionary.org.ua\www\framework\web\CController.php:878
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#1 Z:\home\dictionary.org.ua\www\protected\controllers\ProjectsController.php(132): CController->render('admin', Array)
+#2 Z:\home\dictionary.org.ua\www\framework\web\actions\CInlineAction.php(49): ProjectsController->actionIndex()
+#3 Z:\home\dictionary.org.ua\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\home\dictionary.org.ua\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 Z:\home\dictionary.org.ua\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 Z:\home\dictionary.org.ua\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 Z:\home\dictionary.org.ua\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 Z:\home\dictionary.org.ua\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 Z:\home\dictionary.org.ua\www\framework\web\CController.php(291): CFilterChain->run()
+#10 Z:\home\dictionary.org.ua\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(282): CController->run('')
+#12 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('projects')
+#13 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/projects
+HTTP_REFERER=http://dictionary.org.ua/projects
+---
+2013/03/25 23:10:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:10:54 [error] [exception.CException] exception 'CException' with message 'ProjectsController cannot find the requested view "admin".' in Z:\home\dictionary.org.ua\www\framework\web\CController.php:878
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#1 Z:\home\dictionary.org.ua\www\protected\controllers\ProjectsController.php(132): CController->render('admin', Array)
+#2 Z:\home\dictionary.org.ua\www\framework\web\actions\CInlineAction.php(49): ProjectsController->actionIndex()
+#3 Z:\home\dictionary.org.ua\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\home\dictionary.org.ua\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 Z:\home\dictionary.org.ua\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 Z:\home\dictionary.org.ua\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 Z:\home\dictionary.org.ua\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 Z:\home\dictionary.org.ua\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 Z:\home\dictionary.org.ua\www\framework\web\CController.php(291): CFilterChain->run()
+#10 Z:\home\dictionary.org.ua\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(282): CController->run('')
+#12 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('projects')
+#13 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/projects
+HTTP_REFERER=http://dictionary.org.ua/projects
+---
+2013/03/25 23:10:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:11:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:12:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:12:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:12:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:12:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:12:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:31:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:32:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:37:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:37:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:39:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:40:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:42:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:42:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:42:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:42:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:49:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:51:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:52:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:53:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:53:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:55:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/25 23:57:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/26 00:00:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/26 00:01:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/26 00:02:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/26 00:03:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/26 00:03:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/26 00:03:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/26 00:04:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/26 00:04:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/26 00:09:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/26 00:09:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/26 00:11:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/26 00:11:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/26 00:11:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/26 00:11:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/26 00:11:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/26 00:11:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\dictionary.org.ua\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\dictionary.org.ua\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\dictionary.org.ua\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
