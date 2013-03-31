@@ -3,10 +3,10 @@
 class DictionariesController extends Controller
 {
 	/**
-	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
-	 * using two-column layout. See 'protected/views/layouts/column2.php'.
+	 * @var string the default layout for the views. Defaults to '//layouts/main', meaning
+	 * using two-column layout. See 'protected/views/layouts/main.php'.
 	 */
-	public $layout='//layouts/column2';
+	public $layout='//layouts/main';
 
 	/**
 	 * @return array action filters
@@ -60,7 +60,7 @@ class DictionariesController extends Controller
 	 * Creates a new model.
 	 * If creation is successful, the browser will be redirected to the 'view' page.
 	 */
-	public function actionCreate()
+	public function actionCreate($project_id)
 	{
 		$model=new Dictionary;
 		// Uncomment the following line if AJAX validation is needed
@@ -69,8 +69,9 @@ class DictionariesController extends Controller
 		if(isset($_POST['Dictionary']))
 		{
 			$model->attributes=$_POST['Dictionary'];
+			$model->project_id = $project_id;
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+				$this->redirect('/projects/' . $project_id);
 		}
 
 		$this->render('create',array(
@@ -94,7 +95,7 @@ class DictionariesController extends Controller
 		{
 			$model->attributes=$_POST['Dictionary'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+				$this->redirect('/projects/' . $model->project_id);
 		}
 
 		$this->render('update',array(
@@ -109,26 +110,9 @@ class DictionariesController extends Controller
 	 */
 	public function actionDelete($id)
 	{
-		$this->loadModel($id)->delete();
-
-		// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
-		if(!isset($_GET['ajax']))
-			$this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));
-	}
-
-	/**
-	 * Lists all models.
-	 */
-	public function actionIndex()
-	{
-		$model=new Dictionary('search');
-		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Dictionary']))
-			$model->attributes=$_GET['Dictionary'];
-
-		$this->render('index',array(
-			'model'=>$model,
-		));
+		$model = $this->loadModel($id);
+		$model->delete();
+		$this->redirect('/projects/' . $model->project_id);
 	}
 
 	/**

@@ -37,6 +37,10 @@ body {
 	padding: 10px 20px;
 }
 
+#content {
+	width: 900px;
+}
+
 .error {
 	color: #df382c;
 }

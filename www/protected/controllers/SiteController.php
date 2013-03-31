@@ -2,6 +2,13 @@
 
 class SiteController extends Controller
 {
+	
+	/**
+	 * @var string the default layout for the views. Defaults to '//layouts/main', meaning
+	 * using two-column layout. See 'protected/views/layouts/main.php'.
+	 */
+	public $layout='//layouts/main';
+	
 	/**
 	 * Declares class-based actions.
 	 */

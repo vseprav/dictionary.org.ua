@@ -1,20 +1,34 @@
 <?php
 /* @var $this DictionariesController */
-/* @var $model Dictionaries */
-
-$this->breadcrumbs=array(
-	'Dictionaries'=>array('index'),
-	$model->title,
-);
+/* @var $dataProvider Dictionaries */
 ?>
 
-<h1>View Dictionary</h1>
+<h1><?php echo $project->name; ?></h1>
 
-<?php $this->widget('zii.widgets.CDetailView', array(
-	'data'=>$model,
-	'attributes'=>array(
-		'id',
-		'title',
-		'description',
-	),
-)); ?>
+<?php echo CHtml::link( 'New', $project->id . '/dictionaries/create', array('class'=>'btn btn-primary') ); ?>
+
+<table class='table table-striped'>
+	<thead>
+    	<tr>
+      		<th>Title</th>
+      		<th>Description</th>
+      		<th></th>
+      		<th></th>
+      		<th></th>
+    	</tr>
+	</thead>
+	<tbody>
+    <?php foreach ($dataProvider as $data) { ?>
+      	<tr>
+        	<td><?php echo $data->title; ?></td>
+        	<td><?php echo $data->description; ?></td>
+        	<td><?php echo CHtml::link( 'Open',array('projects/' . $project->id . '/dictionaries/' . $data->id)); ?></td>  
+        	<td><?php echo CHtml::link('Edit', array('projects/' . $project->id . '/dictionaries/update/' . $data->id)); ?></td>
+        	<td><?php echo CHtml::link('Delete',"#", 
+					                    array("submit"=>array('dictionaries/delete', 'id'=>$data->id), 
+					                    'confirm' => 'Are you sure?') ); ?>
+			</td>
+      	</tr>
+    <?php } ?>
+	</tbody>
+</table>
